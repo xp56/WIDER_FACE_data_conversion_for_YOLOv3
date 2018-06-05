@@ -68,7 +68,7 @@ fo1.close()
 b=0
 a=0
 total=0
-IOU = 0.5
+IOU = 0.7                  #修改IOU得到自己想要的精度
 P = []
 R = []
 for key in dict1:
