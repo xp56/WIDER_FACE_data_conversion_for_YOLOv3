@@ -322,7 +322,7 @@ for i in range(len(faces)):
     y = int(faces[i][1])
     w = int(faces[i][2])
     h = int(faces[i][3])
-    cv2.rectangle(image, (x, y), (x + w, y + w), (0, 255, 0), 2)
+    cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
 cv2.imshow('v3_1.jpg', image)
 
 cv2.waitKey(0)
